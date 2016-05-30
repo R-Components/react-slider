@@ -7,3 +7,7 @@
 - npm start
 - open http://localhost:8000
 
+## TODO
+
+- 适配移动端
+- 添加进度条
