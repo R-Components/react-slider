@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class SliderItem extends React.Component {
+export default class SliderItem extends React.PureComponent {
   constructor(props) {
     super(props);
   }
