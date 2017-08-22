@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class SliderArrows extends React.Component {
+export default class SliderArrows extends React.PureComponent {
   constructor(props) {
     super(props);
   }

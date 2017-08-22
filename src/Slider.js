@@ -57,7 +57,8 @@ export default class Slider extends React.Component {
     return (
       <div
         className="slider"
-        onMouseOver={this.props.pause?this.pausePlay.bind(this):null} onMouseOut={this.props.pause?this.goPlay.bind(this):null}>
+        onMouseOver={this.props.pause ? this.pausePlay.bind(this) : null}
+        onMouseOut={this.props.pause ? this.goPlay.bind(this) : null}>
           <ul style={{
               left: -100 * this.state.nowLocal + '%',
               transitionDuration: this.props.speed + 's',
@@ -65,8 +66,8 @@ export default class Slider extends React.Component {
             }}>
               {itemNodes}
           </ul>
-          {this.props.arrows?arrowsNode:null}
-          {this.props.dots?dotsNode:null}
+          {this.props.arrows ? arrowsNode : null}
+          {this.props.dots ?dotsNode:null}
         </div>
       );
   }
